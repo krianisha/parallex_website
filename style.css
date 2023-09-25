@@ -1,0 +1,111 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Baloo Bhai', cursive;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+.pimg1
+{
+    background-image: url('back.png');
+    min-height: 100%;
+     width: 100vw;
+
+    
+    
+}
+.pimg2
+{
+    background-image: url('n.jpeg');
+    min-height: 700px;
+     width: 100vw;
+     background-size: cover;
+     position: relative;
+     background-repeat: no-repeat;
+     image-resolution: 50px;
+     background-attachment: fixed;
+   
+    
+    
+}
+.pimg3
+{
+    background-image: url('b.png');
+    min-height: 700px;
+     width: 100vw;
+     
+
+   
+}
+.pimg4
+{
+    background-image: url('n4.png');
+    min-height: 700px;
+     width: 100vw;
+
+   
+    
+}
+.pimg5
+{
+    background-image: url('cave.png');
+    min-height:700px;
+     width: 100vw;
+
+   
+    
+}
+.pimg6
+{
+    background-image: url('khajana.png');
+    min-height:700px;
+     width: 100vw;
+
+  
+    
+}
+.pimg1,.pimg3,.pimg4,.pimg5,.pimg6
+{
+      /* to set pic in website*/    
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+}
+.ptext
+{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    text-shadow: 0 0 8px   rgba(256,256,256,256);
+}
+.textbg
+{
+    background: rgb(0, 0, 0);
+    counter-reset: #fff;
+    padding: 20px
+}
+.section
+{
+    padding: 50px 80px;
+    text-align: center;
+}
+.section-dark
+{
+    background-color:rgb(0, 0, 0);
+    color: #fff;
+}
+.section-ligth
+{
+    background-color:#fff;
+    color: rgb(0, 0, 0);
+}
